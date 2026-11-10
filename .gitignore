@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# ArcGIS geodatabases and data (keep data out of the repo)
+*.gdb/
+*.lock
+*.sr.lock
+*.mxd
+*.lyrx
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.xml
+
+# ArcGIS Pro project files / backups
+*.aprx
+*.atbx.lock
+.backups/
+Index/
+ImportLog/
+GpMessages/
+scratch.gdb/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
